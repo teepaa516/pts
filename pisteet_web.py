@@ -162,7 +162,7 @@ def to_csv_bytes_day_detail(by_code: dict) -> bytes:
     return buf.getvalue().encode("utf-8")
 
 # ---------- UI ----------
-st.set_page_config(page_title="Pistekertymä (PDF + TXT)", layout="wide")
+st.set_page_config(page_title="pts", layout="wide")
 state = _get_state()
 
 st.title(".")
