@@ -165,7 +165,7 @@ def to_csv_bytes_day_detail(by_code: dict) -> bytes:
 st.set_page_config(page_title="Pistekertymä (PDF + TXT)", layout="wide")
 state = _get_state()
 
-st.title("Pistekertymä laskuri (PDF + TXT) — selainversio")
+st.title(".")
 
 col1, col2 = st.columns(2)
 with col1:
